@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    color:white;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #355181;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 10rem;
+
+}
+
+ul li{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
