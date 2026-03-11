@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 //https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/react-app-vivian-vivianshenn/',
+  base: '/react-app-vivianshenn/',
 });

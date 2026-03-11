@@ -3,34 +3,50 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useState } from 'react'
+import Nav from './Nav'
+import Card from './Card'
+import About from './About'
+import Footer from './Footer' 
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [visits, setVisits] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-          </div>
-          <h1>Vite + React</h1>
-          <div className="card">
-            <button onClick={() => setCount((count) => count + 1)}>
-              count is {count}
-            </button>
-            <p>
-              Edit <code>src/App.jsx</code> and save to test HMR
-            </p>
-          </div>
-          <p className="read-the-docs">
-            Click on the Vite and React logos to learn more
-          </p>  
-       </>
+  <>
+    <Nav />
+
+    <h1>Vivian's Dance Shop</h1>
+    <p>Welcome to my React dance gear store!</p>
+
+    <button onClick={() => setVisits(visits + 1)}>
+      Visits: {visits}
+    </button>
+
+    <About />
+
+    <Card
+      name="Ballet tights"
+      description="Pink tights for ballet classes; comfortable and stylish"
+    />
+
+    <Card
+      name="Contemporary shoes"
+      description="Easy to turn and jump in and very comfortable"
+    />
+
+    <Card
+      name="Dance bag"
+      description="A bag to store all of your dance items; easy to carry and spacious"
+    />
+
+    <Message
+      message="Thanks for visiting my dance shop!"
+      name="Vivian"
+    />
+
+    <Footer />
+  </>
   )
 }
-
 export default App
