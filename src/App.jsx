@@ -7,6 +7,7 @@ import Nav from './Nav'
 import Card from './Card'
 import About from './About'
 import Footer from './Footer' 
+import Contact from './Contact'
 
 function App() {
 

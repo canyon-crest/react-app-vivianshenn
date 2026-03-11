@@ -6,12 +6,20 @@ ul {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    padding: 0rem 10rem;
+    padding: 0.5rem 10rem;
+    margin: 0;
 
 }
 
 ul li{
     display: flex;
-    margin: 1rem;
+    margin: 0 1rem;
     flex-wrap: wrap;
+}
+
+
+ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
 }
