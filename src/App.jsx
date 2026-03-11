@@ -16,6 +16,11 @@ function App() {
   <>
     <Nav />
 
+    <h1 id="home">Vivian's Dance Shop</h1>
+    <About id="about" />
+    <Contact id="contact" />
+
+
     <h1>Vivian's Dance Shop</h1>
     <p>Welcome to my React dance gear store!</p>
 
