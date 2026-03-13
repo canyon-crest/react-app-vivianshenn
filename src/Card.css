@@ -1,0 +1,25 @@
+.myCard {
+  background-color: white;
+  color: #213547;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.myCard h2 {
+  margin-top: 0;
+  color: #355181;
+}
+
+.myCard button {
+  margin: 0.4rem;
+}
+
+.myCard p {
+  margin: 0.5rem 0;
+}
